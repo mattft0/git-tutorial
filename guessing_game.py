@@ -15,8 +15,7 @@ def guess_loop ():
                     try_count += 1
                 else:
                     print("You just found the number , it was indeed",guess)
-                    print("With",try_count)
-                    print("try")
+                    print(f'With {try_count} try')
                     return
             except ValueError as err:
                 print("Invalid input , please enter an integer")
